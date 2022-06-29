@@ -4,7 +4,7 @@ import "./../css/Sections.css"
 const Projects = (props) => {
 
   return (
-    <section id='project' ref={props.ref} className='section project'>Projects</section>
+    <section id='project' ref={props.ref} className='section project'><h1>Projects</h1></section>
   )
 }
 

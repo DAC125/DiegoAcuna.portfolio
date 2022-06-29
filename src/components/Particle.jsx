@@ -28,7 +28,7 @@ function Particle() {
       {
         "fullScreen": {
             "enable": false,
-            "zIndex": -3
+            "zIndex": 0,
         },
         "particles": {
             "number": {

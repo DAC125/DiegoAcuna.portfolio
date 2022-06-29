@@ -6,3 +6,15 @@
     left: 50%;
     text-align: center;
 }
+
+.ligthText{
+    font-weight: 300;
+    font-size: large;
+}
+
+.text{
+    font-weight: 1000;
+    font-size: xx-large;
+    padding-bottom: 15px;
+}
+

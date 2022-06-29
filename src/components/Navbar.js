@@ -11,7 +11,9 @@ const Navbar = () => {
       top: document.getElementById(sectionId).offsetTop,
       behavior: "smooth",
     });
-    handleClick();
+    if (click){
+      handleClick();
+    }
   };
   return (
     <div className="header">
