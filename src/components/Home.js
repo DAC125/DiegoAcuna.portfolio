@@ -1,12 +1,20 @@
 import React from 'react'
 import "./../css/Sections.css"
-import IntroImg from "../assets/images.jpeg"
+import "./../css/Home.css"
+import Particle from './Particle'
+
 const Home = (props) => {
+
+  
   return (
     <section id='home' ref={props.ref} className='section home'>
-      <div className='mask'>
-        <img className='intro-img' src={IntroImg} alt='IntroImg'/>
-      </div>
+     <Particle/>
+     <div className='content'>
+      <p>HI, I'M DIEGO ACUÑA</p>
+      <h1>
+        Web Developer
+      </h1>
+     </div>
     </section>
   )
 }
