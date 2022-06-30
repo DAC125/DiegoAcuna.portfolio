@@ -8,7 +8,7 @@ const Home = (props) => {
 
   
   return (
-    <section id='home' ref={props.ref} className='section home'>
+    <section id='home' ref={props.ref} className='section'>
      <Particle/>
      <div className='content'>
       <p className='ligthText'>HI, I'M DIEGO ACUÑA</p>

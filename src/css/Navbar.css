@@ -5,16 +5,24 @@
     justify-content: space-between;
     width: 100%;
     color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100px;
+    z-index: 9999;
 }
+
 
 .nav-logo {
     text-decoration: none;
     display: inline;
     padding: 40px 40px;
     font-weight: 800;
-    font-size: xx-large;
+    font-size: 2cm;
     cursor: pointer;
 }
+.nav-logo:hover{
+    color: blue; 
+}
+
 
 .link {
     text-decoration: none;
@@ -23,6 +31,9 @@
     font-weight: 800;
     font-size: large;
     cursor: pointer;
+}
+.link:hover{
+    color: blue; 
 }
 
 .nav-menu {
@@ -40,6 +51,10 @@
 }
 
 @media screen and (max-width:1040px) {
+    .nav-logo {
+        
+        font-size:xx-large ;
+    }
 
     .nav-menu {
         display: flex;

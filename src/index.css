@@ -12,12 +12,12 @@ body{
   background: #000;
 }
 
-h1, h4, p, a{
+h1,h2, h3, h4, p, a{
   color: #fff
 }
 
 .colorButton{
-  background-color: rgb(14, 14, 182); 
+  background-color: #000080; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -26,4 +26,16 @@ h1, h4, p, a{
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
+}
+
+.title {
+  text-align: left;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: x-large;
+  font-weight: 800;
 }
