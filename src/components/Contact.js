@@ -1,9 +1,9 @@
 import React from 'react'
 import "./../css/Sections.css"
 
-const Contact = (props) => {
+const Contact = () => {
   return (
-    <section id='contact' ref={props.ref} className='section contact'><h1>Contact</h1></section>
+    <section id='contact' className='section contact'><h1>Contact</h1></section>
   )
 }
 

@@ -3,9 +3,9 @@ import "./../css/Sections.css";
 import "./../css/Skills.css";
 import ProgressBar from "@ramonak/react-progress-bar";
 
-const Skils = (props) => {
+const Skils = () => {
   return (
-    <section id="skills" ref={props.ref} className="section skills">
+    <section id="skills" className="section skills">
       <div className="title">
         <h1>Skills</h1>
       </div>

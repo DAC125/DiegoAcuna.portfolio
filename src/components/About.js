@@ -4,10 +4,9 @@ import "./../css/About.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 
-const About = (props) => {
-  console.log(props.ref);
+const About = () => {
   return (
-    <section id="about" ref={props.ref} className="section about">
+    <section id="about" className="section about">
       <div className="data">
         <div className="title">
           <h1>About Me</h1>
